@@ -1,0 +1,78 @@
+
+.navbar-nav .nav-link {
+    color: #c5ddf3 !important;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #000000 !important;
+}
+
+.fpt{
+    display: flex;  
+    justify-content: center;
+}
+
+.fpt{
+    margin-left: 5px;
+    margin-right: 100px;
+}
+
+.btn-logout {
+    background-color: #73c0ff; 
+    color: hsl(0, 0%, 100%); 
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    display: inline-block;
+    margin-left: 45px;
+
+}
+
+.btn-logout:hover {
+    background-color: rgb(170, 225, 255);
+    color: #000000;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+#btn-f{
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0); 
+    font-size: 18px; 
+    font-weight: bold;
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    transition: all 0.3s ease-in-out;
+}
+
+#btn-f:hover {
+    background-color: rgb(148, 212, 252); 
+    color: white;
+    border-color:  rgb(107, 185, 250);
+    box-shadow: 0px 0px 10px rgb(148, 212, 252);
+    transform: scale(1.05); 
+}
+
+#btn-f:active {
+    background-color:  rgb(107, 185, 250);
+    transform: scale(0.95); /* Disminuye un poco el tamaño */
+}
+
+.categorias, .cards{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin: 40px;
+}
+
+button.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
