@@ -23,7 +23,7 @@
 }
 
 .card {
-    background-color: #A3B7C9;
+    background-color: #F8D7E0;
     border-radius: 8px;
     height: 120px;
     display: flex;
@@ -61,11 +61,11 @@
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px #5a96b6;
+    box-shadow: 0 10px 20px #C3778C;
 }
 
 .section {
-    background-color: #A3B7C9;
+    background-color: #F8D7E0;
     border-radius: 8px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -81,7 +81,7 @@
 
 .section:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px #395d6e;;
+    box-shadow: 0 10px 20px #C3778C;;
 }
 
 .image {

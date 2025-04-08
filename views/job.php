@@ -162,7 +162,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
         </div>
 
         <div class="row">
-            <div class="col-md-4 left-section">
+            <div class="col-md-3 left-section">
                 <div class="card">
                     <i class="bi bi-pin-angle-fill"></i>
                     <div class="card-content"></div>
@@ -176,17 +176,36 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                     <div class="card-content"></div>
                 </div>
             </div>
-            <div class="col-md-8">
-                <div class="section">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 image">
-                            <img src="../assets/jobs.png" alt="Image" class="img-fluid">
-                        </div>
-                        <br>
-                        <div class="col-lg-6 textB">
-                            <h2>¡Bienvenido(a) Darknessss!</h2>
-                            <p>El éxito no es solo cuestión de talento, sino de constancia, esfuerzo y actitud.</p>
-                            <p>Enfócate en mejorar un poco cada día, y pronto verás cómo tu dedicación da frutos.</p>
+
+            <div class="col-md-3 left-section">
+                <div class="card">
+                    <i class="bi bi-pin-angle-fill"></i>
+                    <div class="card-content"></div>
+                </div>
+                <div class="card">
+                    <i class="bi bi-pin-angle-fill"></i>
+                    <div class="card-content"></div>
+                </div>
+                <div class="card">
+                    <i class="bi bi-pin-angle-fill"></i>
+                    <div class="card-content"></div>
+                </div>
+            </div>
+            <div class="col-md-5 ">
+                <div class="shadow-sm h-100 section">
+                    <div class="card-body p-3">
+                        <div class="row h-100">
+                            <div class="col-md-12 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="image mb-4" >
+                                    <img src="../assets/jobs.png" alt="Persona trabajando en laptop" class="img-fluid" />
+                                </div>
+                                <h2 class="fw-bold mb-3">¡Bienvenido(a) <span class="text-primary">Darknesss</span>!</h2>
+                                <p class="text-muted">
+                                    El éxito no es solo cuestión de talento, sino de constancia y dedicación.
+                                    Enfócate en mejorar un poco cada día, y pronto verás cómo tu
+                                    dedicación da frutos.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

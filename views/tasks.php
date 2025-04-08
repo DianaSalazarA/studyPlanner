@@ -135,26 +135,27 @@
       </div>
 
       <br>
+      <!-- botones-->
       <div class="container mt-4">
         <div class="row justify-content-center">
           <div class="col-md-3">
-            <button id="btn-f" class="btn w-100">Favoritos</button>
+            <button id="btn-f" href="../views/favorites.php" class="btn w-100">Favoritos</button>
           </div>
           <div class="col-md-3">
-            <button id="btn-f" class="btn w-100">Pendientes</button>
+            <button id="btn-f" href="../views/pending.php" class="btn w-100">Pendientes</button>
           </div>
           <div class="col-md-3">
-            <button id="btn-f" class="btn w-100">Terminados</button>
+            <button id="btn-f" href="../views/finized.php" class="btn w-100">Terminados</button>
           </div>
         </div>
       </div>
-
+<!-- fila 1-->
       <div class="container mt-4">
         <div class="row">
           <div class="col-md-4 mb-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Fecha</h5>
+                <h5 class="card-title"></h5>
                 <div class="card" style="width: 100%;"></div>
               </div>
             </div>
@@ -162,7 +163,7 @@
           <div class="col-md-4 mb-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Fecha</h5>
+                <h5 class="card-title"></h5>
                 <div class="card" style="width: 100%;"></div>
               </div>
             </div>
@@ -170,45 +171,18 @@
           <div class="col-md-4 mb-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Fecha</h5>
-                <div class="card" style="width: 100%;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">hora</h5>
-                <div class="card" style="width: 100%;"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">hora</h5>
-                <div class="card" style="width: 100%;"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">hora</h5>
+                <h5 class="card-title"></h5>
                 <div class="card" style="width: 100%;"></div>
               </div>
             </div>
           </div>
         </div>
-
+<!-- fila 2-->
         <div class="row">
           <div class="col-md-4 mb-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">año</h5>
+                <h5 class="card-title"></h5>
                 <div class="card" style="width: 100%;"></div>
               </div>
             </div>
@@ -216,7 +190,7 @@
           <div class="col-md-4 mb-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">año</h5>
+                <h5 class="card-title"></h5>
                 <div class="card" style="width: 100%;"></div>
               </div>
             </div>
@@ -224,7 +198,34 @@
           <div class="col-md-4 mb-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">año</h5>
+                <h5 class="card-title"></h5>
+                <div class="card" style="width: 100%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- fila 3-->
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <div class="card" style="width: 100%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <div class="card" style="width: 100%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
                 <div class="card" style="width: 100%;"></div>
               </div>
             </div>

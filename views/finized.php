@@ -24,7 +24,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../css/styleHome.css">
-    <link rel="stylesheet" href="../css/personales.css">
+    <link rel="stylesheet" href="../css/finized.css">
 
 </head>
 
@@ -156,59 +156,44 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
 
     <div class="dashboard-container container-fluid">
         <div class="row">
-            <div class="col-12 top-bar">
-                <button><i class="bi bi-arrow-right"></i></button>
-            </div>
-        </div>
-
-        <div class="col-md-6 ">
-            <div class="shadow-sm h-100 section">
-                <div class="card-body p-3">
-                    <div class="row h-100">
-                        <div class="col-md-12 d-flex flex-column justify-content-center align-items-center text-center">
-                            <div class="image mb-4">
-                                <img src="../assets/Personal.png" alt="Persona trabajando en laptop" class="img-fluid" />
+            <div class="col-md-4 ">
+                <div class="shadow-sm h-100 section">
+                    <div class="card-body p-3">
+                        <div class="row h-100">
+                            <div class="col-md-12 d-flex flex-column justify-content-center align-items-center text-center">
+                                <div class="image mb-4">
+                                    <img src="../assets/favorite.png" alt="Persona trabajando en laptop" class="img-fluid" />
+                                </div>
+                                <h2 class="fw-bold mb-3">¡Bienvenido(a) <span class="text-warning">Darknesss</span>!</h2>
+                                <p class="text-muted">
+                                    A tus tareas finalizadas.
+                                </p>
                             </div>
-                            <h2 class="fw-bold mb-3">¡Bienvenido(a) <span class="text-danger">Darknesss</span>!</h2>
-                            <p class="text-muted">
-                                Cuidarte y trabajar en ti mismo no es un lujo, es una necesidad. Cada
-                                pequeño hábito saludable, cada meta cumplida y cada momento de
-                                crecimiento personal te acercan a la mejor versión de ti mismo.
-                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-3 rigth-section">
-                <div class="card">
-                    <i class="bi bi-pin-angle-fill"></i>
-                    <div class="card-content"></div>
-                </div>
-                <div class="card">
-                    <i class="bi bi-pin-angle-fill"></i>
-                    <div class="card-content"></div>
-                </div>
-                <div class="card">
-                    <i class="bi bi-pin-angle-fill"></i>
-                    <div class="card-content"></div>
-                </div>
-            </div>
-
-            <div class="col-md-3 rigth-section">
-                <div class="card">
-                    <i class="bi bi-pin-angle-fill"></i>
-                    <div class="card-content"></div>
-                </div>
-                <div class="card">
-                    <i class="bi bi-pin-angle-fill"></i>
-                    <div class="card-content"></div>
-                </div>
-                <div class="card">
-                    <i class="bi bi-pin-angle-fill"></i>
-                    <div class="card-content"></div>
+            <div class="col-md-7">
+                <div class="task-list">
+                    <div class="task-item">
+                        <i class="bi bi-pin-angle-fill"></i>
+                        Lunes 4 de marzo
+                    </div>
+                    <div class="task-item">
+                        <i class="bi bi-pin-angle-fill"></i>
+                    </div>
+                    <div class="task-item">
+                        <i class="bi bi-pin-angle-fill"></i>
+                    </div>
+                    <div class="task-item">
+                        <i class="bi bi-pin-angle-fill"></i>
+                    </div>
+                    <div class="task-item">
+                        <i class="bi bi-pin-angle-fill"></i>
+                    </div>
+                    <div class="task-item">
+                        <i class="bi bi-pin-angle-fill"></i>
+                    </div>
                 </div>
             </div>
         </div>
