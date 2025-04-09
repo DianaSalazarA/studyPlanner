@@ -159,34 +159,54 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                 </div>
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 card-grid">
-                    <div class="col">
-                        <div class="card">
-                            <i class="bi bi-pin-angle-fill"></i>
+                    <div class="card flex-grow-1 mb-3">
+                        <div class="date-header">
+                            <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                        </div>
+                        <div class="card-body p-3">
+                            <div class="content-placeholder"></div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <i class="bi bi-pin-angle-fill"></i>
+                    <div class="card flex-grow-1 mb-3">
+                        <div class="date-header">
+                            <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                        </div>
+                        <div class="card-body p-3">
+                            <div class="content-placeholder"></div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <i class="bi bi-pin-angle-fill"></i>
+                    <div class="card flex-grow-1 mb-2">
+                        <div class="date-header">
+                            <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                        </div>
+                        <div class="card-body p-3">
+                            <div class="content-placeholder"></div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <i class="bi bi-pin-angle-fill"></i>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 card-grid">
+                    <div class="card flex-grow-1 mb-3">
+                        <div class="date-header">
+                            <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                        </div>
+                        <div class="card-body p-3">
+                            <div class="content-placeholder"></div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <i class="bi bi-pin-angle-fill"></i>
+                    <div class="card flex-grow-1 mb-3">
+                        <div class="date-header">
+                            <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                        </div>
+                        <div class="card-body p-3">
+                            <div class="content-placeholder"></div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <i class="bi bi-pin-angle-fill"></i>
+                    <div class="card flex-grow-1 mb-2">
+                        <div class="date-header">
+                            <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                        </div>
+                        <div class="card-body p-3">
+                            <div class="content-placeholder"></div>
                         </div>
                     </div>
                 </div>

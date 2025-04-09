@@ -161,19 +161,63 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                     <div class="card-body p-3">
                         <div class="row h-100">
                             <div class="col-md-12 d-flex flex-column justify-content-center align-items-center text-center">
-                                <div class="image mb-4">
-                                    <img src="../assets/favorite.png" alt="Persona trabajando en laptop" class="img-fluid" />
+                                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="../assets/pendin.png" class="d-block w-100 img-fluid" alt="Persona trabajando en laptop">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../assets/pendin.png" class="d-block w-100 img-fluid" alt="Persona trabajando en laptop 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../assets/pendin.png" class="d-block w-100 img-fluid" alt="Persona trabajando en laptop 3">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
                                 </div>
-                                <h2 class="fw-bold mb-3">¡Bienvenido(a) <span class="text-warning">Darknesss</span>!</h2>
+                                <h2 class="fw-bold mb-3">¡Bienvenido(a) <span class="text-danger">Darknesss</span>!</h2>
                                 <p class="text-muted">
-                                    A tus tareas favoritas.
+                                    A tus tareas pendientes.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-7">
+
+            <div class="col-md-4">
+                <div class="task-list">
+                    <div class="task-item">
+                        <i class="bi bi-pin-angle-fill"></i>
+                        Lunes 4 de marzo
+                    </div>
+                    <div class="task-item">
+                        <i class="bi bi-pin-angle-fill"></i>
+                    </div>
+                    <div class="task-item">
+                        <i class="bi bi-pin-angle-fill"></i>
+                    </div>
+                    <div class="task-item">
+                        <i class="bi bi-pin-angle-fill"></i>
+                    </div>
+                    <div class="task-item">
+                        <i class="bi bi-pin-angle-fill"></i>
+                    </div>
+                    <div class="task-item">
+                        <i class="bi bi-pin-angle-fill"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
                 <div class="task-list">
                     <div class="task-item">
                         <i class="bi bi-pin-angle-fill"></i>

@@ -22,13 +22,13 @@
     gap: 15px;
 }
 .section {
-    background-color: #FAE3B0;
+    background-color: #FFD3B6;
     border-radius: 8px;
-    margin-top: 13%;
+    margin-top: 15%;
     margin-bottom: 15px;
     margin-left: 15%;
     align-items: center;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+    border-bottom: 4px solid #ffc9a5; 
 }
 
 .section {
@@ -39,7 +39,7 @@
 
 .section:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px #fcdd9b;;
+    box-shadow: 0 10px 20px #ffc9a5;
 }
 
 h2 {
@@ -62,8 +62,19 @@ p {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-left: 5%;
+}
+
+.task-item {
+    border-radius: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.task-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px #ffc9a5;
 }
 .task-item {
     background-color: #fff;
@@ -75,6 +86,7 @@ p {
     color: #555;
     font-size: 0.95rem;
     margin-top: 10px;
+    border-bottom: 4px solid #ffc9a5;
 }
 .task-item i {
     margin-right: 10px;

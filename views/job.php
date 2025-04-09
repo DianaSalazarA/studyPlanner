@@ -154,65 +154,112 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
         </div>
     </div>
 
-    <div class="dashboard-container container-fluid">
-        <div class="row">
-            <div class="col-12 top-bar">
-                <button><i class="bi bi-arrow-right"></i></button>
-            </div>
-        </div>
+    <div class="container-fluid d-flex flex-column h-100">
+        <div class="row flex-grow-1">
+            <!-- Columna de tarjetas (ocupa más espacio) -->
+            <div class="col-12 col-lg-8 d-flex flex-column">
+                <div class="row flex-grow-1">
+                    <!-- Primera columna de tarjetas -->
+                    <div class="col-12 col-md-4 d-flex flex-column">
+                        <div class="card flex-grow-1 mb-3">
+                            <div class="date-header">
+                                <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="content-placeholder"></div>
+                            </div>
+                        </div>
+                        <div class="card flex-grow-1 mb-3">
+                            <div class="date-header">
+                                <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="content-placeholder"></div>
+                            </div>
+                        </div>
+                        <div class="card flex-grow-1">
+                            <div class="date-header">
+                                <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="content-placeholder"></div>
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="row">
-            <div class="col-md-3 left-section">
-                <div class="card">
-                    <i class="bi bi-pin-angle-fill"></i>
-                    <div class="card-content"></div>
-                </div>
-                <div class="card">
-                    <i class="bi bi-pin-angle-fill"></i>
-                    <div class="card-content"></div>
-                </div>
-                <div class="card">
-                    <i class="bi bi-pin-angle-fill"></i>
-                    <div class="card-content"></div>
-                </div>
-            </div>
+                    <!-- Segunda columna de tarjetas -->
+                    <div class="col-12 col-md-4 d-flex flex-column">
+                        <div class="card flex-grow-1 mb-3">
+                            <div class="date-header">
+                                <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="content-placeholder"></div>
+                            </div>
+                        </div>
+                        <div class="card flex-grow-1 mb-3">
+                            <div class="date-header">
+                                <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="content-placeholder"></div>
+                            </div>
+                        </div>
+                        <div class="card flex-grow-1">
+                            <div class="date-header">
+                                <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="content-placeholder"></div>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="col-md-3 left-section">
-                <div class="card">
-                    <i class="bi bi-pin-angle-fill"></i>
-                    <div class="card-content"></div>
-                </div>
-                <div class="card">
-                    <i class="bi bi-pin-angle-fill"></i>
-                    <div class="card-content"></div>
-                </div>
-                <div class="card">
-                    <i class="bi bi-pin-angle-fill"></i>
-                    <div class="card-content"></div>
-                </div>
-            </div>
-            <div class="col-md-5 ">
-                <div class="shadow-sm h-100 section">
-                    <div class="card-body p-3">
-                        <div class="row h-100">
-                            <div class="col-md-12 d-flex flex-column justify-content-center align-items-center text-center">
-                                <div class="image mb-4" >
-                                    <img src="../assets/jobs.png" alt="Persona trabajando en laptop" class="img-fluid" />
-                                </div>
-                                <h2 class="fw-bold mb-3">¡Bienvenido(a) <span class="text-primary">Darknesss</span>!</h2>
-                                <p class="text-muted">
-                                    El éxito no es solo cuestión de talento, sino de constancia y dedicación.
-                                    Enfócate en mejorar un poco cada día, y pronto verás cómo tu
-                                    dedicación da frutos.
-                                </p>
+                    <!-- Tercera columna de tarjetas -->
+                    <div class="col-12 col-md-4 d-flex flex-column">
+                        <div class="card flex-grow-1 mb-3">
+                            <div class="date-header">
+                                <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="content-placeholder"></div>
+                            </div>
+                        </div>
+                        <div class="card flex-grow-1 mb-3">
+                            <div class="date-header">
+                                <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="content-placeholder"></div>
+                            </div>
+                        </div>
+                        <div class="card flex-grow-1">
+                            <div class="date-header">
+                                <i class="bi bi-calendar-date me-2"></i>Lunes 4 de marzo
+                            </div>
+                            <div class="card-body p-3">
+                                <div class="content-placeholder"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Bienvenida -->
+            <div class="col-12 col-lg-4 d-flex align-items-stretch">
+                <div class="card p-4 shadow-lg w-100">
+                    <img src="../assets/jobs.png" class="card-img-top mb-3" alt="Imagen de bienvenida">
+                    <div class="card-body">
+                        <h2 class="welcome-title">¡Bienvenido(a) <span class="welcome-name">Darknessss</span>!</h2>
+                        <p class="welcome-text">
+                            El éxito no es solo cuestión de talento, sino de constancia, esfuerzo y actitud. Enfócate en
+                            mejorar un poco cada día, y pronto verás cómo tu dedicación da frutos.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

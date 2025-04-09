@@ -28,8 +28,8 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
 </head>
 
 <body>
-  <!--    contenedor principal -->
-  <div class="container-fluid"></div>
+ <!--    contenedor principal -->
+ <div class="container-fluid"></div>
   <!-- fila 1 -->
   <div class="row">
     <!-- columna 1 fila 1 -->
@@ -65,10 +65,10 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
               <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#"
                 role="button" aria-expanded="false">Tareas</a>
               <ul class="dropdown-menu" aria-labelledby="navbarProjects">
-                <li><a class="dropdown-item" href="#">Academicas</a></li>
-                <li><a class="dropdown-item" href="#">Trabajo</a></li>
-                <li><a class="dropdown-item" href="#">Personales</a></li>
-                <li><a class="dropdown-item" href="#">Hogar</a></li>
+                <li><a class="dropdown-item" href="./academic.php">Academicas</a></li>
+                <li><a class="dropdown-item" href="./job.php">Trabajo</a></li>
+                <li><a class="dropdown-item" href="./personales.php">Personales</a></li>
+                <li><a class="dropdown-item" href="./hogar.php">Hogar</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>

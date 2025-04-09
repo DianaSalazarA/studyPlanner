@@ -19,7 +19,7 @@
 .card {
     background-color: #e0f7fa;
     border-radius: 8px;
-    height: 120px;
+    height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +27,11 @@
     color: #495057;
     position: relative;
     overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.136);
+    border: none;
+    height: 100%;
+    border-bottom: 4px solid #00897b; 
 }
 
 .card i {
@@ -39,10 +44,10 @@
 
 .welcome-section {
     background-color: #e0f7fa;
-    border-radius: 8px;
+    border-radius: 3px;
     padding: 20px;
     margin-top: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+    border-bottom: 4px solid #00897b; 
 }
 
 
@@ -84,6 +89,17 @@
 
 .welcome-section:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px #37474f;
+    box-shadow: 0 10px 20px #00897b;
 }
 
+.date-header {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333;
+    padding: 10px 15px 5px;
+    align-items: center;
+  }
+
+.row{
+    margin-top: 10px;
+}

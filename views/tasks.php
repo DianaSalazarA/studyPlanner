@@ -49,14 +49,14 @@
               <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#"
                 role="button" aria-expanded="false">Tareas</a>
               <ul class="dropdown-menu" aria-labelledby="navbarProjects">
-                <li><a class="dropdown-item" href="#">Academicas</a></li>
-                <li><a class="dropdown-item" href="#">Trabajo</a></li>
-                <li><a class="dropdown-item" href="#">Personales</a></li>
-                <li><a class="dropdown-item" href="#">Hogar</a></li>
+                <li><a class="dropdown-item" href="./academic.php">Academicas</a></li>
+                <li><a class="dropdown-item" href="./job.php">Trabajo</a></li>
+                <li><a class="dropdown-item" href="./personales.php">Personales</a></li>
+                <li><a class="dropdown-item" href="./hogar.php">Hogar</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Todas las tareas</a></li>
+                <li><a class="dropdown-item" href="./tasks.php">Todas las tareas</a></li>
               </ul>
             </li>
           </ul>
@@ -138,18 +138,18 @@
       <!-- botones-->
       <div class="container mt-4">
         <div class="row justify-content-center">
-          <div class="col-md-3">
-            <button id="btn-f" href="../views/favorites.php" class="btn w-100">Favoritos</button>
+          <div class="card-body text-center col-md-3 mb-3"> <!-- Añadí mb-3 para margen inferior -->
+            <a href="../views/favorites.php" id="btn-favorites" class="btn btn-category w-100">Favoritas</a>
           </div>
-          <div class="col-md-3">
-            <button id="btn-f" href="../views/pending.php" class="btn w-100">Pendientes</button>
+          <div class="card-body text-center col-md-3 mb-3 mx-md-3"> <!-- Añadí mx-md-3 para margen horizontal en pantallas medianas/grandes -->
+            <a href="../views/pending.php" id="btn-pending" class="btn btn-category w-100">Pendientes</a>
           </div>
-          <div class="col-md-3">
-            <button id="btn-f" href="../views/finized.php" class="btn w-100">Terminados</button>
+          <div class="card-body text-center col-md-3 mb-3">
+            <a href="../views/finized.php" id="btn-finished" class="btn btn-category w-100">Terminados</a>
           </div>
         </div>
       </div>
-<!-- fila 1-->
+      <!-- fila 1-->
       <div class="container mt-4">
         <div class="row">
           <div class="col-md-4 mb-4">
@@ -177,7 +177,7 @@
             </div>
           </div>
         </div>
-<!-- fila 2-->
+        <!-- fila 2-->
         <div class="row">
           <div class="col-md-4 mb-4">
             <div class="card">
@@ -204,7 +204,7 @@
             </div>
           </div>
         </div>
-<!-- fila 3-->
+        <!-- fila 3-->
         <div class="row">
           <div class="col-md-4 mb-4">
             <div class="card">
@@ -232,7 +232,7 @@
           </div>
         </div>
 
-        <button type="button" id="btn-NT" class="btn btn-category" data-bs-toggle="modal" data-bs-target="#createTaskModal">
+        <button type="button" id="btn-NT" class="btnN btn-category" data-bs-toggle="modal" data-bs-target="#createTaskModal">
           Crear Nueva Tarea
         </button>
 
