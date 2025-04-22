@@ -2,8 +2,6 @@
 session_start();
 
 if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
-    $userId = $_SESSION['user_id'];
-    $roleId = $_SESSION['role_id'];
     $nombre = $_SESSION['nombre'];
 } else {
     header("Location: ../index.html");

@@ -27,7 +27,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <!-- logo-->
-            <a class="navbar-brand d-none d-md-block" href="#">
+            <a class="navbar-brand d-none d-md-block" href="./home.php">
               <img src="../assets/logo.png" alt="" width="30" height="24"
                 class="d-inline-block align-text-top">
             </a>
@@ -236,14 +236,15 @@
           Crear Nueva Tarea
         </button>
 
+
         <div class="modal fade" id="createTaskModal" tabindex="-1" aria-labelledby="createTaskModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
+            <div class="modal-content"style="display: flex; flex-direction: column; max-height: 90vh;">
+              <div class="modal-header" style="flex: 0 0 auto;">
                 <h5 class="modal-title" id="createTaskModalLabel">Crear Nueva Tarea</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
+              <div class="modal-body" style="flex: 1 1 auto; overflow-y: auto;">
                 <form>
                   <div class="mb-3">
                     <label for="taskTitle" class="form-label">Título de la tarea</label>
@@ -335,7 +336,7 @@
                   </div>
                 </form>
               </div>
-              <div class="modal-footer">
+              <div class="modal-footer" style="flex: 0 0 auto;">
                 <button type="button" class="btn btn-primary">+ Añadir</button>
               </div>
             </div>

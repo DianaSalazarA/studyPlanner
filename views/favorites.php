@@ -2,8 +2,6 @@
 session_start();
 
 if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
-    $userId = $_SESSION['user_id'];
-    $roleId = $_SESSION['role_id'];
     $nombre = $_SESSION['nombre'];
 } else {
     header("Location: ../index.html");
@@ -182,7 +180,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
-                                <h2 class="fw-bold mb-3">¡Bienvenido(a) <span class="text-warning">Darknesss</span>!</h2>
+                                <h2 class="fw-bold mb-3">¡Bienvenido(a) <span class="text-warning"><?php echo $nombre; ?></span>!</h2>
                                 <p class="text-muted">
                                     A tus tareas favoritas.
                                 </p>

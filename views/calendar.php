@@ -2,8 +2,6 @@
 session_start();
 
 if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
-  $userId = $_SESSION['user_id'];
-  $roleId = $_SESSION['role_id'];
   $nombre = $_SESSION['nombre'];
 } else {
   header("Location: ../index.html");
@@ -63,14 +61,14 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
               <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#"
                 role="button" aria-expanded="false">Tareas</a>
               <ul class="dropdown-menu" aria-labelledby="navbarProjects">
-                <li><a class="dropdown-item" href="#">Academicas</a></li>
-                <li><a class="dropdown-item" href="#">Trabajo</a></li>
-                <li><a class="dropdown-item" href="#">Personales</a></li>
-                <li><a class="dropdown-item" href="#">Hogar</a></li>
+                <li><a class="dropdown-item" href="./academic.php">Academicas</a></li>
+                <li><a class="dropdown-item" href="./job.php">Trabajo</a></li>
+                <li><a class="dropdown-item" href="./personales.php">Personales</a></li>
+                <li><a class="dropdown-item" href="./hogar.php">Hogar</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="#">Todas las tareas</a></li>
+                <li><a class="dropdown-item" href="./tasks.php">Todas las tareas</a></li>
               </ul>
             </li>
           </ul>
