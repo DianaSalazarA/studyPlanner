@@ -1,0 +1,125 @@
+body {
+    background-color: #ebeff5; 
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding-top: 60px;
+  }
+  
+  
+  .container-fluid {
+      width: 100%; 
+      padding-right: 0;
+      padding-left: 0; 
+      margin-right: auto;
+      margin-left: auto; 
+  }
+  
+  
+  .bg-custom {
+      background-color: rgb(0, 119, 182) !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-toggler {
+      padding: 0.25rem 0.5rem !important;
+      font-size: 0.975rem !important;
+      border: none !important;
+    }
+  
+    .custom-toggler .navbar-toggler-icon {
+      width: 1.7em !important;
+      height: 1.7em !important;
+    }
+  
+  .custom-offcanvas {
+      background-color: rgb(0, 119, 182) !important;
+      color: white;
+    }
+  
+    .canvas-title {
+      font-size: 1rem;
+      font-weight: 500;
+      color: white !important;
+      display: flex;
+      align-items: center;
+    }
+  
+    .canvas-title img {
+      margin-right: 0.5rem;
+    }
+    
+  @media (max-width: 2000px) {
+    .container-fluid, .row {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100% !important;
+    }
+  }  
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color:rgba(1, 153, 100, 0.539); 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.row {
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+    display: block;
+    margin: 10px; 
+}
+.card {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.card.text-dark.bg-light {
+    border-bottom: 4px solid rgb(1, 153, 100, 0.539); 
+}
+.ribbon {
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    width: 60px;
+    height: 25px;
+    background: rgb(1, 153, 100, 0.539);
+    clip-path: polygon(0% 0%, 80% 0%, 100% 50%, 80% 100%, 0% 100%);
+}
+.user-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+}
+
+.user-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: -5px;
+}
+
+.user-icon { 
+    background: #ccc; 
+}
+
+.plus-icon { 
+    background:  rgb(1, 153, 100, 0.539);
+}
+.containermt-4{
+
+    padding-top: 80px; 
+}
+
