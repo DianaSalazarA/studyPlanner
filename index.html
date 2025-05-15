@@ -2,129 +2,52 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Study Planer</title>
-  <link rel="stylesheet" href="./css/style.css" />
-  <script src="./js/jquery-3.7.1.min.js"></script>
-  <link rel="stylesheet" href="./css/register.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Planer</title>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="./css/register.css">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
 
-  <video autoplay loop muted playsinline class="background-video">
-    <source src="./assets/videos/fondoIndex.mp4" type="video/mp4">
-  </video>
+    <div class="main">
+        <input type="checkbox" id="chk" aria-hidden="true">
 
-  <div class="container" id="container">
-    <div class="form-container register-container">
-      <form id="registerForm">
-        <h1>Regístrate aquí</h1>
-        <div class="form-control">
-          <input type="text" id="username" name="username2" placeholder="username" />
-          <small id="username-error"></small>
-          <span></span>
+        <div class="signup">
+            <form id="registerForm">
+                <label for="chk" aria-hidden="true">Sign up</label>
+                <input type="text" name="username2" placeholder="username" id="username" required="">
+                <input type="text" name="name2" placeholder="name" id="name" required="">
+                <input type="text" name="lastname2" placeholder="last name" id="lastname" required="">
+                <input type="email-2" name="email2" placeholder="email" id="correo" required="">
+                <input type="password" name="password2" placeholder="password" id="contraseña" required="">
+                <input type="text" name="role2" placeholder="role" id="role" required="">
+                <button type="submit" value="submit">Sign up</button>
+            </form>
         </div>
-        <div class="form-control">
-          <input type="text" id="name" name="name2" placeholder="name" />
-          <small id="username-error"></small>
-          <span></span>
+
+        <div class="login">
+            <form id="loginForm">
+                <label for="chk" aria-hidden="true">Login</label>
+                <input type="email" name="username" placeholder="email" required="">
+                <input type="password" name="password" placeholder="password" required="">
+                <button type="submit" value="submit">Login</button>
+            </form>
         </div>
-        <div class="form-control">
-          <input type="text" id="lastname" name="lastname2" placeholder="last name" />
-          <small id="username-error"></small>
-          <span></span>
-        </div>
-        <div class="form-control">
-          <input type="email-2" id="correo" name="email2" placeholder="email" />
-          <small id="email-error"></small>
-          <span></span>
-        </div>
-        <div class="form-control">
-          <input type="password" id="contraseña" name="password2" placeholder="password" />
-          <small id="password-error"></small>
-          <span></span>
-        </div>
-        <div class="form-control">
-          <input type="text" id="role" name="role2" placeholder="role" />
-          <span></span>
-        </div>
-        <button type="submit" value="submit">Registrar</button>
-        <div class="social-container">
-        </div>
-      </form>
     </div>
-
-
-
-    <div class="form-container login-container">
-      <form id="loginForm">
-        <h1>Inicia sesión aquí</h1>
-        <div class="form-control2">
-          <input type="email" class="email-2" name="username" placeholder="Correo electrónico" />
-          <small class="email-error-2"></small>
-          <span></span>
-        </div>
-        <div class="form-control2">
-          <input type="password" class="password-2" name="password" placeholder="Contraseña" />
-          <small class="password-error-2"></small>
-          <span></span>
-        </div>
-
-        <div class="content">
-          <div class="checkbox">
-            <input type="checkbox" name="checkbox" id="checkbox" />
-            <label for="">Recuérdame</label>
-          </div>
-          <div class="pass-link">
-            <a href="#">¿Olvidaste la contraseña?</a>
-          </div>
-        </div>
-        <button type="submit" value="submit">Iniciar sesión</button>
-        <div class="social-container">
-        </div>
-      </form>
-    </div>
-
-    <div class="overlay-container mobile-hidden-content">
-      <div class="overlay">
-        <div class="overlay-panel overlay-left">
-          <h1 class="title">
-            ¡Hola, <br />
-            Dominadores del caos!
-          </h1>
-          <p>¡Tu lista de tareas de esta esperando! </p>
-          <button type="submit" class="ghost" id="login">
-            Iniciar sesión
-            <i class="fa-solid fa-arrow-left"></i>
-          </button>
-        </div>
-
-        <div class="overlay-panel overlay-right">
-          <h1 class="title">
-            ¡Empieza hoy <br />
-            a lograr más!
-          </h1>
-          <p>
-            Menos caos, más control. Registrate en segundos.
-          </p>
-          <button class="ghost" id="register">
-            Registrarse
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
 </body>
+
 <script src="./js/main.js"></script>
 
 <script src="./js/mainstudy.js"></script>
 
 </html>
+
+

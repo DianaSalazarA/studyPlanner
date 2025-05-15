@@ -7,10 +7,6 @@ $(document).ready(function () {
       var password = $.trim($('input[name="password"]').val());
        //console.log("console evento", "user", username, " pas", password);
   
-    
-        // Sanitizar datos antes de enviarlos (opcional, solo como precaución adicional)
-        password = encodeURIComponent(password);
-  
         loginUser(username,password)
   
   
