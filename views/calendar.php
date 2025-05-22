@@ -17,7 +17,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Study Planner</title>
 
-  <link rel="stylesheet" href="css/calendar.css">
+  <link rel="stylesheet" href="../css/calendar.css">
 
   <link rel="stylesheet" href="../css/styleHome.css">
   
@@ -210,17 +210,17 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
     </div>
   </div>
 
-  <!-- Bootstrap JS + jQuery -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Bootstrap JS bundle - Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <!-- FullCalendar JS v6 -->
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
-  <!-- Tu script -->
-  <script src="js/calendar.js"></script>
+  <!-- Tooltips bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <!-- script -->
+  <script src="../js/calendar.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>
